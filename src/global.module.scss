@@ -1,0 +1,16 @@
+// Mixins
+@mixin headerText {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+// useful classes
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}

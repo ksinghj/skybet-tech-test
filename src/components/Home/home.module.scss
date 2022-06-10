@@ -1,0 +1,20 @@
+@use '../../global.module';
+
+.appHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.appHeaderText {
+  @include global.headerText;
+}
+
+.chipBoxShadow {
+  box-shadow: 0px 5px 6px -4px rgba(0, 0, 0, 0.64);
+}
+
+.refresh {
+  cursor: pointer;
+}
